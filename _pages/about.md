@@ -3,44 +3,55 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 📝 Publications 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
+<div align="center">
+  <h1>夏强</h1>
+  <p>
+    +86 18807368687 &nbsp;|&nbsp;
+    <a href="mailto:xiaqiang@tongji.edu.cn">xiaqiang@tongji.edu.cn</a> &nbsp;|&nbsp;
+    <a href="https://github.com/Ran2424">github.com/Ran2424</a>
+  </p>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+## 个人简介
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+同济大学城市交通研究院博士研究生，主要关注大语言模型、知识图谱与城市交通数据挖掘的交叉研究。
 
-# 📖 Education
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+## 最新进展
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- 2026年4月：论文 *HSGraphAgent: Knowledge-Graph-Guided Large Language Models for Harmonized System Code Classification* 被 ACL 2026 Main Conference 接收。
+- 2026年：论文 *Leveraging Large Language Models for Better Understanding Bus Passenger Complaints Based on Citizen Hotline Data Mining* 被 TRB 2026 接收。
+- 2025年：参与发表《城市交通知识增强大语言模型构建及应用探索》。
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+## 教育背景
+
+- 2024年至今：同济大学城市交通研究院，博士研究生，上海。
+- 2020年到2024年：长安大学运输工程学院，本科，西安。
+
+## 论文发表
+
+- **HSGraphAgent: Knowledge-Graph-Guided Large Language Models for Harmonized System Code Classification**  
+  ACL 2026 Main Conference，2026  
+  夏强，张喆，王安琪，王玮，王鑫，李杰*
+
+- **Leveraging Large Language Models for Better Understanding Bus Passenger Complaints Based on Citizen Hotline Data Mining**  
+  TRB 2026，2026  
+  夏强，王安琪，李杰*
+
+- **城市交通知识增强大语言模型构建及应用探索**  
+  《城市交通》，2025  
+  李杰*，朱广宇，王安琪，夏强，周旋，李艺
+
+## 比赛荣誉
+
+- 2025年：第九届规划决策支持模型设计大赛，一等奖。
+- 2024年：中国研究生数学建模竞赛，二等奖。
+- 2023年：美国大学生数学建模竞赛，二等奖。
+- 2022年：ACM-ICPC 亚洲区域赛，铜奖。
+- 2021年：国家奖学金。
+- 2021年：ACM-ICPC 亚洲区域赛，铜奖。
+- 2020年：CCCC 中国大学生计算机设计类竞赛，银奖。
