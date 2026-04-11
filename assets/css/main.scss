@@ -107,3 +107,67 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.home-contact {
+    margin-bottom: 0.5rem;
+}
+
+.home-intro {
+    margin: 1.5rem 0 2rem 0;
+    padding: 1.25rem 1.5rem;
+    background: #f7f9fc;
+    border-left: 4px solid #00369f;
+    border-radius: 6px;
+}
+
+.home-lead {
+    margin-bottom: 0.6rem;
+    font-size: 1.05rem;
+}
+
+.publication-meta {
+    margin-bottom: 0.45rem;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.publication-venue {
+    font-weight: 600;
+    color: #00369f;
+}
+
+.publication-sep {
+    margin: 0 0.35rem;
+    color: #999;
+}
+
+.publication-authors {
+    margin-bottom: 0.75rem;
+}
+
+.publication-tags {
+    margin-bottom: 0.75rem;
+}
+
+.publication-tag {
+    display: inline-block;
+    margin: 0 0.5rem 0.5rem 0;
+    padding: 0.18rem 0.55rem;
+    border-radius: 999px;
+    background: #eef3ff;
+    color: #21418f;
+    font-size: 0.85rem;
+}
+
+.publication-detail ul {
+    margin-top: 0.4rem;
+}
+
+.publication-links {
+    margin-top: 0.8rem;
+}
+
+.publication-links a {
+    margin-right: 1rem;
+    font-weight: 600;
+}

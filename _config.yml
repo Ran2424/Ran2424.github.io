@@ -97,6 +97,9 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+collections:
+  publications:
+    output: false
 
 # Conversion
 markdown: kramdown
@@ -126,6 +129,11 @@ defaults:
     values:
       layout: default
       author_profile: true
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout:
 
 
 # Sass/SCSS

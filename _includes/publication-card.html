@@ -1,0 +1,63 @@
+<div class="paper-box">
+  <div class="paper-box-text" markdown="1">
+
+### {{ include.publication.title }}
+
+<div class="publication-meta">
+  <span class="publication-venue">{{ include.publication.venue }}</span>
+  <span class="publication-sep">·</span>
+  <span>{{ include.publication.year }}</span>
+  {% if include.publication.status %}
+    <span class="publication-sep">·</span>
+    <span>{{ include.publication.status }}</span>
+  {% endif %}
+</div>
+
+<div class="publication-authors">
+  {% for author in include.publication.authors %}
+    {% if author.highlight %}
+      <strong>{{ author.name }}</strong>{% unless forloop.last %}, {% endunless %}
+    {% else %}
+      {{ author.name }}{% unless forloop.last %}, {% endunless %}
+    {% endif %}
+  {% endfor %}
+</div>
+
+{% if include.publication.keywords %}
+<div class="publication-tags">
+  {% for keyword in include.publication.keywords %}
+    <span class="publication-tag">{{ keyword }}</span>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if include.publication.summary %}
+{{ include.publication.summary | markdownify }}
+{% endif %}
+
+{% if include.publication.content and include.publication.content != "" %}
+<div class="publication-detail">
+  {{ include.publication.content | markdownify }}
+</div>
+{% endif %}
+
+{% assign has_links = false %}
+{% if include.publication.paper_url or include.publication.project_url or include.publication.code_url %}
+  {% assign has_links = true %}
+{% endif %}
+{% if has_links %}
+<div class="publication-links">
+  {% if include.publication.paper_url %}
+    <a href="{{ include.publication.paper_url }}">论文</a>
+  {% endif %}
+  {% if include.publication.project_url %}
+    <a href="{{ include.publication.project_url }}">项目</a>
+  {% endif %}
+  {% if include.publication.code_url %}
+    <a href="{{ include.publication.code_url }}">代码</a>
+  {% endif %}
+</div>
+{% endif %}
+
+  </div>
+</div>

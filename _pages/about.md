@@ -9,17 +9,29 @@ redirect_from:
 ---
 
 <div align="center">
-  <h1>夏强</h1>
-  <p>
+  <h1><strong>夏强</strong></h1>
+  <p class="home-contact">
     +86 18807368687 &nbsp;|&nbsp;
     <a href="mailto:xiaqiang@tongji.edu.cn">xiaqiang@tongji.edu.cn</a> &nbsp;|&nbsp;
     <a href="https://github.com/Ran2424">github.com/Ran2424</a>
   </p>
 </div>
 
-## 个人简介
+<div class="home-intro">
+  <p class="home-lead">
+    同济大学城市交通研究院博士研究生，主要关注大语言模型、知识图谱与城市交通数据挖掘的交叉研究。
+  </p>
+  <p>
+    研究兴趣包括交通知识增强、城市计算、文本数据挖掘，以及面向真实业务场景的智能分析与决策支持。
+  </p>
+</div>
 
-同济大学城市交通研究院博士研究生，主要关注大语言模型、知识图谱与城市交通数据挖掘的交叉研究。
+## 研究方向
+
+- 大语言模型与交通领域任务适配
+- 知识图谱与知识增强建模
+- 城市交通文本数据挖掘
+- 面向治理场景的智能分析与决策支持
 
 ## 最新进展
 
@@ -34,17 +46,10 @@ redirect_from:
 
 ## 论文发表
 
-- **HSGraphAgent: Knowledge-Graph-Guided Large Language Models for Harmonized System Code Classification**  
-  ACL 2026 Main Conference，2026  
-  夏强，张喆，王安琪，王玮，王鑫，李杰*
-
-- **Leveraging Large Language Models for Better Understanding Bus Passenger Complaints Based on Citizen Hotline Data Mining**  
-  TRB 2026，2026  
-  夏强，王安琪，李杰*
-
-- **城市交通知识增强大语言模型构建及应用探索**  
-  《城市交通》，2025  
-  李杰*，朱广宇，王安琪，夏强，周旋，李艺
+{% assign publications = site.publications | sort: "date" | reverse %}
+{% for publication in publications %}
+  {% include publication-card.html publication=publication %}
+{% endfor %}
 
 ## 比赛荣誉
 
