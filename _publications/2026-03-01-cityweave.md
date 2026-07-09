@@ -13,11 +13,11 @@ keywords:
 authors:
   - name: "Ao Wang"
     url: "https://www.orville.wang/"
-  - name: "Zhen Chen"
-  - name: "Siyu Wang"
+  - name: "Zhiwen Chen"
+  - name: "Shen Wang"
   - name: "Qiang Xia"
     highlight: true
-  - name: "Yuhang Zhou"
+  - name: "Yi Zhou"
   - name: "Jian Li*"
     url: "https://umi.tongji.edu.cn/info/1061/1130.htm"
 summary: >

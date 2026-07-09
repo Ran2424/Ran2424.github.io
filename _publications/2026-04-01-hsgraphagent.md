@@ -18,7 +18,7 @@ authors:
     url: "https://www.orville.wang/"
   - name: "Wenhan Wang"
   - name: "Xiangyu Wang"
-  - name: "Jian Li"
+  - name: "Jian Li*"
     url: "https://umi.tongji.edu.cn/info/1061/1130.htm"
 summary: >
   这项工作面向海关商品编码分类场景，结合知识图谱与大语言模型，
