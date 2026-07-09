@@ -8,18 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-<div align="center">
-  <h1><strong>夏强</strong></h1>
-  <p class="home-contact">
-    +86 19301222623 &nbsp;|&nbsp;
-    <a href="mailto:xiaqiang@tongji.edu.cn">xiaqiang@tongji.edu.cn</a> &nbsp;|&nbsp;
-    <a href="https://github.com/Ran2424">github.com/Ran2424</a>
-  </p>
-</div>
-
 <div class="home-intro">
   <p class="home-lead">
-    我是同济大学城市交通研究院博士研究生，研究方向聚焦大语言模型、知识图谱与城市交通数据挖掘的交叉应用。
+    我是同济大学城市交通研究院2024级直博生，师从李健教授。
   </p>
   <p>
     近期工作关注交通知识增强、出行规划、公交投诉理解、HS 编码智能分类等任务，尝试把大模型的语义理解与可验证的规则、知识约束结合起来，服务复杂业务场景中的分析、推理与决策支持。
