@@ -23,8 +23,10 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "夏强"
   avatar           : "images/profile.jpg"
-  bio              : "同济大学城市交通研究院博士研究生"
+  bio              : "同济大学城市交通研究院2024级直博生"
   location         : "上海，中国"
+  lab              : "TransportX"
+  lab_url          : "https://transportxlab.com/"
   employer         :
   pubmed           : 
   googlescholar    :

@@ -19,6 +19,11 @@
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
+      {% if author.lab and author.lab_url %}
+        <li><a href="{{ author.lab_url }}"><i class="fas fa-fw fa-users" aria-hidden="true"></i> {{ author.lab }}</a></li>
+      {% elsif author.lab %}
+        <li><i class="fas fa-fw fa-users" aria-hidden="true"></i> {{ author.lab }}</li>
+      {% endif %}
       {% if author.employer %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
       {% endif %}
