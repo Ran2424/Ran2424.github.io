@@ -12,8 +12,10 @@ keywords:
   - 应用探索
 authors:
   - name: "李健*"
+    url: "https://umi.tongji.edu.cn/info/1061/1130.htm"
   - name: "朱国军"
   - name: "王奥"
+    url: "https://www.orville.wang/"
   - name: "夏强"
     highlight: true
   - name: "周胥君"

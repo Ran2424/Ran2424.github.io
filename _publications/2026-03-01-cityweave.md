@@ -12,12 +12,14 @@ keywords:
   - Urban Computing
 authors:
   - name: "Ao Wang"
+    url: "https://www.orville.wang/"
   - name: "Zhen Chen"
   - name: "Siyu Wang"
   - name: "Qiang Xia"
     highlight: true
   - name: "Yuhang Zhou"
   - name: "Jian Li*"
+    url: "https://umi.tongji.edu.cn/info/1061/1130.htm"
 summary: >
   这项工作面向个性化、可靠的城市出行规划任务，将用户需求与现实世界约束共同纳入建模，
   提升大模型在复杂出行场景中的规划质量与可执行性。

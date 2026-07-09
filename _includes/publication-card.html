@@ -21,7 +21,11 @@
 
 <div class="publication-authors">
   {% for author in include.publication.authors %}
-    {% if author.highlight %}
+    {% if author.url and author.highlight %}
+      <strong><a href="{{ author.url }}">{{ author.name }}</a></strong>{% unless forloop.last %}, {% endunless %}
+    {% elsif author.url %}
+      <a href="{{ author.url }}">{{ author.name }}</a>{% unless forloop.last %}, {% endunless %}
+    {% elsif author.highlight %}
       <strong>{{ author.name }}</strong>{% unless forloop.last %}, {% endunless %}
     {% else %}
       {{ author.name }}{% unless forloop.last %}, {% endunless %}

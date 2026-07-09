@@ -14,7 +14,9 @@ authors:
   - name: "Qiang Xia"
     highlight: true
   - name: "Ao Wang"
+    url: "https://www.orville.wang/"
   - name: "Jian Li*"
+    url: "https://umi.tongji.edu.cn/info/1061/1130.htm"
 summary: >
   这项研究围绕公交乘客投诉文本理解，利用市民热线数据挖掘方法与大语言模型，
   提升投诉识别、归类与业务洞察能力。

@@ -15,9 +15,11 @@ authors:
     highlight: true
   - name: "Zijian Zhang"
   - name: "Ao Wang"
+    url: "https://www.orville.wang/"
   - name: "Wenhan Wang"
   - name: "Xiangyu Wang"
   - name: "Jian Li"
+    url: "https://umi.tongji.edu.cn/info/1061/1130.htm"
 summary: >
   这项工作面向海关商品编码分类场景，结合知识图谱与大语言模型，
   提升复杂类别体系下的理解、推理与分类能力。
