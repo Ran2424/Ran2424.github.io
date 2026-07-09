@@ -3,7 +3,7 @@ title: "HSGraphAgent: Knowledge-Graph-Guided Large Language Models for Harmonize
 venue: "ACL 2026 Main Conference"
 year: 2026
 date: 2026-04-01
-status: "Accept"
+level: "CCF-A"
 image: "images/publications/hsgraphagent-framework.png"
 keywords:
   - Large Language Models
