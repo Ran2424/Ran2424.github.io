@@ -2,7 +2,7 @@
 title: "CityWeave: Weaving User Needs and World Constraints for Personalized and Reliable Mobility Planning"
 venue: "ACM KDD 2026"
 year: 2026
-date: 2026-03-01
+date: 2026-05-01
 status: "Oral Presentation"
 keywords:
   - Mobility Planning
