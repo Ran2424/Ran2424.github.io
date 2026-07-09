@@ -4,6 +4,7 @@ venue: "ACM KDD 2026"
 year: 2026
 date: 2026-05-01
 status: "Oral Presentation"
+image: "images/publications/cityweave-framework.png"
 keywords:
   - Mobility Planning
   - Large Language Models

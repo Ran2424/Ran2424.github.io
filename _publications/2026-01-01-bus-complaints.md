@@ -4,6 +4,7 @@ venue: "TRB 2026"
 year: 2026
 date: 2026-01-01
 status: "Accepted"
+image: "images/publications/bus-complaints-framework.png"
 keywords:
   - Large Language Models
   - Complaint Mining

@@ -4,6 +4,7 @@ venue: "《城市交通》"
 year: 2025
 date: 2025-01-01
 status: "已发表"
+image: "images/publications/urban-transport-llm.png"
 keywords:
   - 城市交通
   - 知识增强

@@ -4,6 +4,7 @@ venue: "ACL 2026 Main Conference"
 year: 2026
 date: 2026-04-01
 status: "Accept"
+image: "images/publications/hsgraphagent-framework.png"
 keywords:
   - Large Language Models
   - Knowledge Graph

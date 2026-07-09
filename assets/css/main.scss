@@ -43,7 +43,7 @@
 .paper-box {
     display: flex;
     justify-content: left;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
     border-bottom: 1px #efefef solid;
@@ -56,8 +56,9 @@
         width: 100%;
         order: 2;
         img {
+            width: 100%;
             max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
+            border: 1px solid #efefef;
             object-fit: cover;
         }
     }
@@ -68,22 +69,46 @@
     }
     
     @include breakpoint($medium) {
-        .paper-box-image{
-            justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
-            order: 1;
-        }
-        
         .paper-box-text{
             justify-content: left;
             max-width: 100%;
             order: 2;
         }
 
+        &.paper-box--with-image {
+            .paper-box-image{
+                justify-content: left;
+                min-width: 200px;
+                max-width: 40%;
+                order: 1;
+            }
+
+            .paper-box-text{
+                padding-left: 2em;
+                max-width: 60%;
+            }
+        }
+
     }
 
 
+}
+
+.masthead-home-nav {
+    min-width: auto;
+}
+
+.masthead-home-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    color: $masthead-link-color;
+    font-weight: 700;
+    text-decoration: none;
+
+    &:hover {
+        color: $masthead-link-color-hover;
+    }
 }
 
 $scroll_offset : 2em;
