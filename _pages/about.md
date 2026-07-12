@@ -29,7 +29,7 @@ redirect_from:
 
 ## 最新进展
 
-- 2026年5月：论文 *CityWeave: Weaving User Needs and World Constraints for Personalized and Reliable Mobility Planning* 被 ACM KDD 2026 接收为 Oral Presentation。
+- 2026年5月：参与发表论文 *CityWeave: Weaving User Needs and World Constraints for Personalized and Reliable Mobility Planning*，被 ACM KDD 2026 接收为 Oral Presentation。
 - 2026年4月：论文 *HSGraphAgent: Knowledge-Graph-Guided Large Language Models for Harmonized System Code Classification* 被 ACL 2026 Main Conference 接收。
 - 2026年：论文 *Leveraging Large Language Models for Better Understanding Bus Passenger Complaints Based on Citizen Hotline Data Mining* 被 TRB 2026 接收。
 - 2025年：参与发表《城市交通知识增强大语言模型构建及应用探索》。
