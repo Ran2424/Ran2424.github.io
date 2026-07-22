@@ -2,11 +2,11 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="masthead-home-nav">
-        <a class="masthead-home-link{% if page.url == '/' %} is-active{% endif %}" href="{{ '/' | relative_url }}" aria-label="HomePage" title="HomePage">
+        <a class="masthead-home-link{% if page.url == '/' %} is-active{% endif %}" href="{{ '/#home' | relative_url }}" target="_self" data-home-section-link="home" aria-controls="home-panel" aria-label="HomePage" title="HomePage">
           <i class="fas fa-home" aria-hidden="true"></i>
           <span>HomePage</span>
         </a>
-        <a class="masthead-home-link{% if page.url contains '/blog/' %} is-active{% endif %}" href="{{ '/blog/' | relative_url }}" aria-label="Blog" title="Blog">
+        <a class="masthead-home-link{% if page.url contains '/blog/' %} is-active{% endif %}" href="{{ '/#blog' | relative_url }}" target="_self" data-home-section-link="blog" aria-controls="blog-panel" aria-label="Blog" title="Blog">
           <i class="fas fa-pen" aria-hidden="true"></i>
           <span>Blog</span>
         </a>

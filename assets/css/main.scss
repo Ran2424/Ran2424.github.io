@@ -130,6 +130,21 @@
     }
 }
 
+.home-content-panel[hidden] {
+    display: none;
+}
+
+html.home-sections-page {
+    overflow-y: scroll;
+}
+
+.home-sections-page .sidebar {
+    @include breakpoint($large) {
+        position: static;
+        top: auto;
+    }
+}
+
 .blog-section {
     margin-bottom: 2.5rem;
 }

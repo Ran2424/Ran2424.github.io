@@ -3,7 +3,7 @@ layout: compress
 ---
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="en" class="no-js{% if page.url == "/" %} home-sections-page{% endif %}">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
@@ -21,7 +21,16 @@ layout: compress
         {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
         <div class="page__inner-wrap">
           <section class="page__content" itemprop="text">
-            {{ content }}
+            {% if page.url == "/" %}
+              <div id="home-panel" class="home-content-panel">
+                {{ content }}
+              </div>
+              <div id="blog-panel" class="home-content-panel" hidden>
+                {% include blog-panel.html %}
+              </div>
+            {% else %}
+              {{ content }}
+            {% endif %}
           </section>
         </div>
       </article>
