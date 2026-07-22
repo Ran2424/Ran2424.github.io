@@ -42,7 +42,9 @@ redirect_from:
   {% include publication-card.html publication=publication %}
 {% endfor %}
 
-## 竞赛经历
+<details class="home-collapsible">
+<summary>竞赛经历</summary>
+<div class="home-collapsible__content" markdown="1">
 
 ### 国家级
 
@@ -69,7 +71,12 @@ redirect_from:
 - 2021年6月：长安大学 ACM-ICPC 程序设计竞赛，一等奖。
 - 2020年12月：长安大学 ACM-ICPC 程序设计竞赛新生赛，一等奖。
 
-## 获奖荣誉
+</div>
+</details>
+
+<details class="home-collapsible">
+<summary>获奖荣誉</summary>
+<div class="home-collapsible__content" markdown="1">
 
 - 2024年5月：长安大学优秀毕业生。
 - 2022年10月：长安大学校园贡献奖。
@@ -77,8 +84,16 @@ redirect_from:
 - 2021年10月：国家奖学金。
 - 2021年10月：长安大学学业优秀奖。
 
-## 校园工作经历
+</div>
+</details>
+
+<details class="home-collapsible">
+<summary>校园工作经历</summary>
+<div class="home-collapsible__content" markdown="1">
 
 - 2022年7月到2023年5月：担任长安大学 ACM 集训队队长。
 - 2021年8月到2022年8月：担任长安大学 ACM 协会竞赛部部长。
 - 2020年10月到2021年7月：担任长安大学经济与管理学院团学组织中心组织部部员。
+
+</div>
+</details>

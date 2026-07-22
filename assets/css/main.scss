@@ -95,6 +95,9 @@
 }
 
 .masthead-home-nav {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
     min-width: auto;
 }
 
@@ -109,6 +112,83 @@
     &:hover {
         color: $masthead-link-color-hover;
     }
+
+    &.is-active {
+        color: #00369f;
+    }
+}
+
+.blog-header {
+    margin-bottom: 2rem;
+
+    h1 {
+        margin-bottom: 0.5rem;
+    }
+
+    p {
+        color: #666;
+    }
+}
+
+.blog-section {
+    margin-bottom: 2.5rem;
+}
+
+.blog-post-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid $border-color;
+}
+
+.blog-post-item {
+    display: flex;
+    align-items: baseline;
+    gap: 1.25rem;
+    padding: 0.85rem 0;
+    border-bottom: 1px solid $border-color;
+
+    time {
+        flex: 0 0 6.5rem;
+        color: #777;
+        font-size: 0.9rem;
+    }
+
+    a {
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    @include breakpoint(max-width $small) {
+        display: block;
+
+        time {
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+    }
+}
+
+.blog-post-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid $border-color;
+}
+
+.blog-post-title {
+    margin-bottom: 0.65rem;
+}
+
+.blog-post-meta {
+    margin: 0;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.blog-back-link {
+    display: inline-block;
+    margin-top: 2.5rem;
+    font-weight: 600;
 }
 
 $scroll_offset : 2em;
@@ -147,6 +227,41 @@ h1:before, .anchor:before {
 .home-lead {
     margin-bottom: 0.6rem;
     font-size: 1.05rem;
+}
+
+.home-collapsible {
+    margin-top: 1.5rem;
+
+    summary {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid $border-color;
+        font-family: $header-font-family;
+        font-size: $type-size-4;
+        font-weight: bold;
+        cursor: pointer;
+
+        &::-webkit-details-marker {
+            display: none;
+        }
+
+        &::after {
+            content: "+";
+            color: #00369f;
+            font-size: 1.25em;
+            line-height: 1;
+        }
+    }
+
+    &[open] summary::after {
+        content: "−";
+    }
+}
+
+.home-collapsible__content {
+    padding-top: 0.25rem;
 }
 
 .publication-meta {

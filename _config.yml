@@ -136,6 +136,12 @@ defaults:
       type: publications
     values:
       layout:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author_profile: false
 
 
 # Sass/SCSS
