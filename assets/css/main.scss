@@ -264,7 +264,7 @@ html.home-sections-page {
     display: inline;
     margin: 0 0.35rem 0 0;
     color: #888;
-    font-size: 0.68rem;
+    font-size: 0.74rem;
 
     > * {
         white-space: normal;
@@ -280,10 +280,19 @@ html.home-sections-page {
     }
 }
 
+.blog-post-item__source {
+    color: #555;
+    font-weight: 600;
+}
+
+.blog-post-item__author {
+    color: #777;
+}
+
 .blog-post-item__summary {
     margin: 0.3rem 0 0;
     color: #666;
-    font-size: 0.76rem;
+    font-size: 0.7rem;
     line-height: 1.5;
     white-space: normal;
 }
