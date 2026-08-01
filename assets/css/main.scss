@@ -159,13 +159,21 @@ html.home-sections-page {
 }
 
 .blog-sections {
-    display: block;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2.5rem;
+
+    @include breakpoint(max-width $medium) {
+        grid-template-columns: 1fr;
+        gap: 2.75rem;
+    }
 }
 
 .blog-section + .blog-section {
-    margin-top: 3.5rem;
-    padding-top: 2.5rem;
-    border-top: 1px solid $border-color;
+    @include breakpoint(max-width $medium) {
+        padding-top: 2.5rem;
+        border-top: 1px solid $border-color;
+    }
 }
 
 .blog-section__header {
@@ -204,15 +212,11 @@ html.home-sections-page {
 
 .blog-post-list {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
     gap: 0.75rem;
     margin: 0;
     padding: 0;
     list-style: none;
-
-    @include breakpoint(max-width $medium) {
-        grid-template-columns: 1fr;
-    }
 }
 
 .blog-post-item {
