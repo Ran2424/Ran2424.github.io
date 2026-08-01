@@ -159,21 +159,20 @@ html.home-sections-page {
 }
 
 .blog-sections {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 3rem;
+    display: block;
+}
 
-    @include breakpoint(max-width $medium) {
-        grid-template-columns: 1fr;
-        gap: 2.75rem;
-    }
+.blog-section + .blog-section {
+    margin-top: 3.5rem;
+    padding-top: 2.5rem;
+    border-top: 1px solid $border-color;
 }
 
 .blog-section__header {
     display: flex;
-    gap: 1rem;
-    align-items: flex-start;
-    margin-bottom: 1.25rem;
+    gap: 0.9rem;
+    align-items: center;
+    margin-bottom: 1.4rem;
 
     h2 {
         margin: 0 0 0.35rem;
@@ -189,27 +188,46 @@ html.home-sections-page {
 }
 
 .blog-section__number {
-    padding-top: 0.2rem;
+    display: inline-flex;
+    flex: 0 0 2.1rem;
+    align-items: center;
+    justify-content: center;
+    width: 2.1rem;
+    height: 2.1rem;
     color: #00369f;
+    background: #eef3ff;
+    border-radius: 50%;
     font-family: $monospace;
     font-size: 0.72rem;
     font-weight: 700;
 }
 
 .blog-post-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
     margin: 0;
     padding: 0;
     list-style: none;
+
+    @include breakpoint(max-width $medium) {
+        grid-template-columns: 1fr;
+    }
 }
 
 .blog-post-item {
-    padding: 1.2rem 1.25rem;
-    border: 1px solid $border-color;
-    border-radius: 8px;
-    transition: border-color 0.2s ease, transform 0.2s ease;
+    display: flex;
+    min-height: 11rem;
+    padding: 1.3rem 1.4rem;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid #e5e8ec;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.03);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 
     & + & {
-        margin-top: 0.75rem;
+        margin-top: 0;
     }
 
     a {
@@ -223,6 +241,7 @@ html.home-sections-page {
 
     &:hover {
         border-color: rgba(0, 54, 159, 0.45);
+        box-shadow: 0 8px 24px rgba(16, 24, 40, 0.07);
         transform: translateY(-2px);
     }
 
@@ -236,18 +255,20 @@ html.home-sections-page {
 
 .blog-post-item__title {
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.2rem 0.45rem;
+    flex-direction: column;
+    gap: 0.25rem;
 }
 
 .blog-post-item__meta {
     display: flex;
+    flex-wrap: wrap;
     gap: 0.55rem;
-    margin-bottom: 0.55rem;
+    min-height: 1.1rem;
+    margin-bottom: 0.7rem;
     color: #888;
     font-size: 0.72rem;
 
-    span::before {
+    > * + *::before {
         content: "·";
         margin-right: 0.55rem;
     }
@@ -255,12 +276,13 @@ html.home-sections-page {
 
 .blog-post-item__subtitle {
     color: #888;
-    font-size: 0.72rem;
+    font-size: 0.74rem;
     font-weight: 400;
+    line-height: 1.45;
 }
 
 .blog-post-item__summary {
-    margin: 0.7rem 0 0;
+    margin: 0.85rem 0 0;
     color: #666;
     font-size: 0.8rem;
     line-height: 1.65;
@@ -273,6 +295,10 @@ html.home-sections-page {
     border: 1px dashed $border-color;
     border-radius: 8px;
     font-size: 0.85rem;
+
+    .blog-section & {
+        max-width: 30rem;
+    }
 
     @include breakpoint(max-width $medium) {
         padding: 1rem 1.1rem;
