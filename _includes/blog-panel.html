@@ -1,23 +1,90 @@
 <header class="blog-header">
+  <p class="blog-header__eyebrow">READING &amp; WRITING</p>
   <h1>Blog</h1>
-  <p>记录研究、学习与日常思考。</p>
+  <p>收藏值得反复阅读的文章，也记录自己的思考。</p>
 </header>
 
-{% assign blog_sections = "research|研究经验,study|学习记录,reflection|随笔感想" | split: "," %}
-{% for section in blog_sections %}
-  {% assign section_parts = section | split: "|" %}
-  {% assign category_key = section_parts[0] %}
-  {% assign category_title = section_parts[1] %}
-  {% assign category_posts = site.categories[category_key] %}
-  <section class="blog-section" id="{{ category_key }}">
-    <h2>{{ category_title }}</h2>
+<div class="blog-sections">
+  <section class="blog-section" id="reading">
+    <header class="blog-section__header">
+      <span class="blog-section__number">01</span>
+      <div>
+        <h2>他山之石</h2>
+        <p>采撷他人的见识与光亮。</p>
+      </div>
+    </header>
     <ul class="blog-post-list">
-      {% for post in category_posts %}
-        <li class="blog-post-item">
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
-          <a href="{{ post.url | relative_url }}" target="_self">{{ post.title }}</a>
-        </li>
-      {% endfor %}
+      <li class="blog-post-item blog-post-item--external">
+        <div class="blog-post-item__meta">
+          <time datetime="2026-07-30">2026-07-30</time>
+          <span>Earendil Engineering</span>
+        </div>
+        <a href="https://earendil.com/posts/session-portability/" target="_blank" rel="noopener noreferrer">
+          <span class="blog-post-item__title">
+            <span>带不走的会话</span>
+            <span class="blog-post-item__subtitle">The Session You Cannot Take With You</span>
+          </span>
+          <i class="fas fa-arrow-up" aria-hidden="true"></i>
+          <span class="screen-reader-text">（在新窗口打开）</span>
+        </a>
+        <p class="blog-post-item__summary">讨论被服务商封闭状态逐渐侵蚀的会话所有权，以及 AI 会话为何应当可检查、可导出、可迁移。</p>
+      </li>
+      <li class="blog-post-item blog-post-item--external">
+        <div class="blog-post-item__meta">
+          <time datetime="2026-07-22">2026-07-22</time>
+          <span>Earendil Engineering</span>
+        </div>
+        <a href="https://earendil.com/posts/prompt-caching/" target="_blank" rel="noopener noreferrer">
+          <span class="blog-post-item__title">
+            <span>智能体中的提示缓存</span>
+            <span class="blog-post-item__subtitle">Prompt Caching In Agents</span>
+          </span>
+          <i class="fas fa-arrow-up" aria-hidden="true"></i>
+          <span class="screen-reader-text">（在新窗口打开）</span>
+        </a>
+        <p class="blog-post-item__summary">从 KV 缓存原理出发，解释上下文结构如何影响编程智能体的延迟、成本与工具设计。</p>
+      </li>
+      <li class="blog-post-item blog-post-item--external">
+        <div class="blog-post-item__meta">
+          <time datetime="2026-02-12">2026-02-12</time>
+          <span>Earendil</span>
+        </div>
+        <a href="https://earendil.com/posts/the-high-ground/" target="_blank" rel="noopener noreferrer">
+          <span class="blog-post-item__title">
+            <span>高地</span>
+            <span class="blog-post-item__subtitle">The High Ground</span>
+          </span>
+          <i class="fas fa-arrow-up" aria-hidden="true"></i>
+          <span class="screen-reader-text">（在新窗口打开）</span>
+        </a>
+        <p class="blog-post-item__summary">展望 AI 普及后的软件竞争高地：可信、个性化且可自由定制的人机协作系统。</p>
+      </li>
     </ul>
   </section>
-{% endfor %}
+
+  <section class="blog-section" id="writing">
+    <header class="blog-section__header">
+      <span class="blog-section__number">02</span>
+      <div>
+        <h2>笔下寸心</h2>
+        <p>写下研究、学习与日常所思。</p>
+      </div>
+    </header>
+    {% assign own_posts = site.categories.blog %}
+    {% if own_posts.size > 0 %}
+      <ul class="blog-post-list">
+        {% for post in own_posts %}
+          <li class="blog-post-item">
+            <div class="blog-post-item__meta">
+              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+              {% if post.category_label %}<span>{{ post.category_label }}</span>{% endif %}
+            </div>
+            <a href="{{ post.url | relative_url }}" target="_self">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p class="blog-empty-state">文章正在路上。</p>
+    {% endif %}
+  </section>
+</div>
