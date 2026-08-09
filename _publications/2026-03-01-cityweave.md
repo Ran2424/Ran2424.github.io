@@ -12,9 +12,11 @@ keywords:
   - Urban Computing
 authors:
   - name: "Ao Wang"
-    url: "https://www.orville.wang/"
+    url: "https://aowang.ai/"
   - name: "Zhiwen Chen"
+    url: "https://www.zhiwenchen.com/"
   - name: "Shen Wang"
+    url: "https://shenwang2001.github.io/"
   - name: "Qiang Xia"
     highlight: true
   - name: "Yi Zhou"

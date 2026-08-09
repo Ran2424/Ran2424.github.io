@@ -15,7 +15,7 @@ authors:
     highlight: true
   - name: "Zijian Zhang"
   - name: "Ao Wang"
-    url: "https://www.orville.wang/"
+    url: "https://aowang.ai/"
   - name: "Wenhan Wang"
   - name: "Xiangyu Wang"
   - name: "Jian Li*"

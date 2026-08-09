@@ -13,7 +13,7 @@ authors:
   - name: "Qiang Xia"
     highlight: true
   - name: "Ao Wang"
-    url: "https://www.orville.wang/"
+    url: "https://aowang.ai/"
   - name: "Jian Li*"
     url: "https://umi.tongji.edu.cn/info/1061/1130.htm"
 summary: >
