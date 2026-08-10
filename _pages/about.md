@@ -46,7 +46,7 @@ redirect_from:
   {% include publication-card.html publication=publication %}
 {% endfor %}
 
-<details class="home-collapsible">
+<details class="home-collapsible" open>
 <summary>竞赛经历</summary>
 <div class="home-collapsible__content" markdown="1">
 
@@ -78,7 +78,7 @@ redirect_from:
 </div>
 </details>
 
-<details class="home-collapsible">
+<details class="home-collapsible" open>
 <summary>获奖荣誉</summary>
 <div class="home-collapsible__content" markdown="1">
 
@@ -91,7 +91,7 @@ redirect_from:
 </div>
 </details>
 
-<details class="home-collapsible">
+<details class="home-collapsible" open>
 <summary>校园工作经历</summary>
 <div class="home-collapsible__content" markdown="1">
 
