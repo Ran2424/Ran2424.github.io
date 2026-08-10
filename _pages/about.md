@@ -31,7 +31,7 @@ redirect_from:
 
 - 2026年8月：正在开展交通领域 Agent Harness 工作，探索面向交通数据的自然语言交互、空间关系查询与地图可视化。
 
-  <img src="{{ '/images/projects/traffic-agent-harness.png' | relative_url }}" alt="交通领域 Agent Harness 界面：上海地铁线路空间查询与地图可视化" style="max-width: 100%; height: auto;">
+  <img src="{{ '/images/projects/traffic-agent-harness.png' | relative_url }}" alt="交通领域 Agent Harness 界面：上海地铁线路空间查询与地图可视化" style="width: 50%; max-width: 100%; height: auto;">
 
 - 2026年5月：参与发表论文 *CityWeave: Weaving User Needs and World Constraints for Personalized and Reliable Mobility Planning*，被 ACM KDD 2026 接收为 Oral Presentation。
 - 2026年4月：论文 *HSGraphAgent: Knowledge-Graph-Guided Large Language Models for Harmonized System Code Classification* 被 ACL 2026 Main Conference 接收。
