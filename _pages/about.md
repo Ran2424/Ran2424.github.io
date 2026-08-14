@@ -16,8 +16,22 @@ redirect_from:
 
 ## 教育背景
 
-- 2024年至今：同济大学城市交通研究院，博士研究生，上海。
-- 2020年到2024年：长安大学运输工程学院，本科，西安。
+<div class="education-list">
+  <article class="education-item">
+    <span class="education-logo education-logo--tongji" role="img" aria-label="同济大学校徽与校名"></span>
+    <div class="education-item__content">
+      <p class="education-item__degree"><strong>同济大学城市交通研究院</strong><span>博士研究生</span></p>
+      <p class="education-item__meta"><span>2024年至今</span><span>上海</span></p>
+    </div>
+  </article>
+  <article class="education-item">
+    <span class="education-logo education-logo--changan" role="img" aria-label="长安大学校徽与校名"></span>
+    <div class="education-item__content">
+      <p class="education-item__degree"><strong>长安大学运输工程学院</strong><span>本科</span></p>
+      <p class="education-item__meta"><span>2020年到2024年</span><span>西安</span></p>
+    </div>
+  </article>
+</div>
 
 
 ## 研究方向
