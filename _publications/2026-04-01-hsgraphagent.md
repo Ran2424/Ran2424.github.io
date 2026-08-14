@@ -5,6 +5,7 @@ year: 2026
 date: 2026-04-01
 level: "CCF-A"
 image: "images/publications/hsgraphagent-framework.png"
+paper_url: "https://aclanthology.org/2026.acl-long.2072/"
 keywords:
   - Large Language Models
   - Knowledge Graph

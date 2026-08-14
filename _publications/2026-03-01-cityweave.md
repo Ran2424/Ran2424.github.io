@@ -5,6 +5,7 @@ year: 2026
 date: 2026-05-01
 level: "CCF-A"
 image: "images/publications/cityweave-framework.png"
+paper_url: "https://dl.acm.org/doi/10.1145/3770855.3818979"
 keywords:
   - Mobility Planning
   - Large Language Models
