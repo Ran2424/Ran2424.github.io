@@ -4,6 +4,7 @@ venue: "《城市交通》"
 year: 2025
 date: 2025-01-01
 image: "images/publications/urban-transport-llm.png"
+paper_url: "https://www.chinautc.com/templates/H_magazine/articlecontent.aspx?nodeid=6345&page=ContentPage&contentid=106939"
 keywords:
   - 城市交通
   - 知识增强

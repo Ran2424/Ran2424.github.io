@@ -105,6 +105,7 @@ redirect_from:
 </div>
 </details>
 
+{% comment %}
 <details class="home-collapsible" open>
 <summary>校园工作经历</summary>
 <div class="home-collapsible__content" markdown="1">
@@ -115,3 +116,4 @@ redirect_from:
 
 </div>
 </details>
+{% endcomment %}
