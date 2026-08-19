@@ -7,7 +7,7 @@
 
   <div class="paper-box-text" markdown="1">
 
-### {{ include.publication.title }}
+### {% if include.publication.paper_url %}[{{ include.publication.title }}]({{ include.publication.paper_url }}){% else %}{{ include.publication.title }}{% endif %}
 
 <div class="publication-meta">
   <span class="publication-venue">{{ include.publication.venue }}</span>
@@ -52,14 +52,11 @@
 {% endif %}
 
 {% assign has_links = false %}
-{% if include.publication.paper_url or include.publication.project_url or include.publication.code_url %}
+{% if include.publication.project_url or include.publication.code_url %}
   {% assign has_links = true %}
 {% endif %}
 {% if has_links %}
 <div class="publication-links">
-  {% if include.publication.paper_url %}
-    <a href="{{ include.publication.paper_url }}">论文</a>
-  {% endif %}
   {% if include.publication.project_url %}
     <a href="{{ include.publication.project_url }}">项目</a>
   {% endif %}

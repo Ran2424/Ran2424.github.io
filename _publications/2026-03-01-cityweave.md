@@ -1,6 +1,6 @@
 ---
 title: "CityWeave: Weaving User Needs and World Constraints for Personalized and Reliable Mobility Planning"
-venue: "ACM KDD 2026"
+venue: "KDD 2026"
 year: 2026
 date: 2026-05-01
 level: "CCF-A"
@@ -29,4 +29,4 @@ summary: >
 ---
 
 - 聚焦 Personalized and Reliable Mobility Planning，强调用户偏好与现实约束的统一建模。
-- 论文被 ACM KDD 2026 接收为 Oral Presentation。
+- 论文被 KDD 2026 接收为 Oral Presentation。
