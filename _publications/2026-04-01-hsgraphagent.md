@@ -1,6 +1,6 @@
 ---
 title: "HSGraphAgent: Knowledge-Graph-Guided Large Language Models for Harmonized System Code Classification"
-venue: "ACL 2026 Main Conference"
+venue: "ACL 2026"
 year: 2026
 date: 2026-04-01
 level: "CCF-A"
@@ -27,4 +27,4 @@ summary: >
 ---
 
 - 聚焦 Harmonized System Code Classification 任务，强调知识增强与大模型推理的结合。
-- 论文已被 ACL 2026 Main Conference 接收。
+- 论文已被 ACL 2026 接收。
