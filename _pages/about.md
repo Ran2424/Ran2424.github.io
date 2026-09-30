@@ -43,9 +43,9 @@ redirect_from:
 
 ## 最新进展
 
-- 2026年8月：正在开展交通领域 Agent Harness 工作，探索面向交通数据的自然语言交互、空间关系查询与地图可视化。
+- 2026年9月：持续开发交通领域 Agent Harness 项目 **[TransportX Agent](https://github.com/Ran2424/transportx-agent)**，通过自然语言交互与共享地图支持交通数据分析。项目以模块组织领域数据、知识与工具，支持图表生成和带来源引用的报告交付。
 
-  <img src="{{ '/images/projects/traffic-agent-harness.png' | relative_url }}" alt="交通领域 Agent Harness 界面：上海地铁线路空间查询与地图可视化" style="width: 50%; max-width: 100%; height: auto;">
+  <a href="https://github.com/Ran2424/transportx-agent"><img src="https://raw.githubusercontent.com/Ran2424/transportx-agent/main/docs/images/product-video-preview.gif" alt="TransportX Agent 产品演示动图" style="width: 50%; max-width: 100%; height: auto;"></a>
 
 - 2026年5月：参与发表论文 *CityWeave: Weaving User Needs and World Constraints for Personalized and Reliable Mobility Planning*，被 KDD 2026 接收为 Oral Presentation。
 - 2026年4月：论文 *HSGraphAgent: Knowledge-Graph-Guided Large Language Models for Harmonized System Code Classification* 被 ACL 2026 接收。
